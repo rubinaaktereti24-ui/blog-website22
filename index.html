@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevPulse - Modern Tech & Lifestyle Blog</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">⚡</span>Dev<span>Pulse</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#newsletter" class="btn-primary">Subscribe</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <span class="badge">Welcome to DevPulse Blog</span>
+      <h1>Insights on Tech, Web Craft, and Future Innovations</h1>
+      <p>Discover thoughtful perspectives, practical web development guides, and inspiration for curious creators and developers.</p>
+      <div class="hero-actions">
+        <a href="#articles" class="btn-primary">Explore Articles</a>
+        <a href="#about" class="btn-outline">About The Author</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Layout -->
+  <main class="container main-layout">
+    
+    <!-- Blog Articles Column -->
+    <div class="articles-column">
+      
+      <!-- Featured Post -->
+      <section id="featured" class="featured-card">
+        <div class="featured-img-wrap">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Web Development Roadmap" />
+          <span class="category-tag">Engineering</span>
+        </div>
+        <div class="featured-info">
+          <div class="meta-info">
+            <span>📅 November 20, 2026</span> • <span>⏱️ 5 min read</span>
+          </div>
+          <h2>The Comprehensive Web Development Roadmap for 2026 and Beyond</h2>
+          <p>From fundamental HTML & CSS mastery to modern front-end architectures and AI-driven dev tools. Here is everything you need to build high-performance web apps today.</p>
+          <div class="author-row">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Author" class="author-avatar">
+            <div>
+              <span class="author-name">Alex Morgan</span>
+              <span class="author-role">Staff Frontend Engineer</span>
+            </div>
+            <a href="#" class="read-more-link">Read Full Story &rarr;</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recent Posts Section -->
+      <section id="articles" class="recent-posts">
+        <h3 class="section-title">Latest Articles</h3>
+        
+        <div class="posts-grid">
+          
+          <!-- Post 1 -->
+          <article class="post-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="Modern UI UX Design">
+              <span class="category-tag">UI/UX Design</span>
+            </div>
+            <div class="card-content">
+              <div class="meta-info">
+                <span>📅 November 18, 2026</span>
+              </div>
+              <h4>Why Micro-Interactions Make or Break Modern Digital Products</h4>
+              <p>Subtle visual cues and fluid transitions create intuitive, delight-driven digital experiences that keep users engaged.</p>
+              <div class="card-footer">
+                <span class="read-time">3 min read</span>
+                <a href="#" class="read-link">Read More &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 2 -->
+          <article class="post-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80" alt="Programming Habits">
+              <span class="category-tag">Career & Growth</span>
+            </div>
+            <div class="card-content">
+              <div class="meta-info">
+                <span>📅 November 15, 2026</span>
+              </div>
+              <h4>5 Common Traps Junior Developers Face (And How to Overcome Them)</h4>
+              <p>Navigating tutorial paralysis, building resilient debugging skills, and learning to write clean, maintainable code.</p>
+              <div class="card-footer">
+                <span class="read-time">4 min read</span>
+                <a href="#" class="read-link">Read More &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 3 -->
+          <article class="post-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80" alt="Artificial Intelligence">
+              <span class="category-tag">Artificial Intelligence</span>
+            </div>
+            <div class="card-content">
+              <div class="meta-info">
+                <span>📅 November 10, 2026</span>
+              </div>
+              <h4>How Intelligent Agents Are Transforming Daily Software Engineering</h4>
+              <p>Exploring how autonomous workflows and agentic tool use are changing the productivity landscape for modern dev teams.</p>
+              <div class="card-footer">
+                <span class="read-time">6 min read</span>
+                <a href="#" class="read-link">Read More &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 4 -->
+          <article class="post-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?auto=format&fit=crop&w=600&q=80" alt="Productivity and Focus">
+              <span class="category-tag">Productivity</span>
+            </div>
+            <div class="card-content">
+              <div class="meta-info">
+                <span>📅 November 05, 2026</span>
+              </div>
+              <h4>Digital Minimalism: Maintaining Focus in a World of Constant Noise</h4>
+              <p>Practical systems for reducing digital distractions, managing screen time, and reclaiming your deep focus hours.</p>
+              <div class="card-footer">
+                <span class="read-time">4 min read</span>
+                <a href="#" class="read-link">Read More &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Sidebar Column -->
+    <aside class="sidebar-column">
+      
+      <!-- Author Profile Widget -->
+      <div class="widget author-widget" id="about">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Blog Author" class="sidebar-avatar">
+        <h3>Alex Morgan</h3>
+        <p class="role-desc">Software Engineer & Tech Writer</p>
+        <p class="bio">Passionate about clean code, scalable web architectures, and crafting intuitive user experiences. Sharing lessons learned along the journey.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Twitter">X</a>
+          <a href="#" aria-label="GitHub">GH</a>
+          <a href="#" aria-label="LinkedIn">IN</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+
+      <!-- Categories Widget -->
+      <div class="widget categories-widget">
+        <h4 class="widget-title">Categories</h4>
+        <ul class="cat-list">
+          <li><a href="#"><span>Web Development</span> <span class="count">14</span></a></li>
+          <li><a href="#"><span>Artificial Intelligence</span> <span class="count">9</span></a></li>
+          <li><a href="#"><span>UI/UX Design</span> <span class="count">6</span></a></li>
+          <li><a href="#"><span>Career & Productivity</span> <span class="count">8</span></a></li>
+          <li><a href="#"><span>DevOps & Cloud</span> <span class="count">5</span></a></li>
+        </ul>
+      </div>
+
+      <!-- Popular Tags Widget -->
+      <div class="widget tags-widget">
+        <h4 class="widget-title">Popular Tags</h4>
+        <div class="tags-cloud">
+          <a href="#">#HTML5</a>
+          <a href="#">#CSS3</a>
+          <a href="#">#JavaScript</a>
+          <a href="#">#React</a>
+          <a href="#">#DesignSystems</a>
+          <a href="#">#AI</a>
+          <a href="#">#WebPerformance</a>
+        </div>
+      </div>
+
+      <!-- Newsletter Widget -->
+      <div class="widget newsletter-widget" id="newsletter">
+        <span class="icon">📬</span>
+        <h4>Stay in the Loop</h4>
+        <p>Get curated tech reads, development guides, and tips delivered straight to your inbox every week.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing to DevPulse!');">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit" class="btn-primary full-width">Subscribe Now</button>
+        </form>
+      </div>
+
+    </aside>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container footer-content">
+      <div class="footer-col">
+        <a href="#" class="logo">
+          <span class="logo-icon">⚡</span>Dev<span>Pulse</span>
+        </a>
+        <p>Your go-to source for modern web development tutorials, design insights, and engineering best practices.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#featured">Featured Story</a></li>
+          <li><a href="#articles">Latest Posts</a></li>
+          <li><a href="#about">About the Author</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get in Touch</h4>
+        <p>Email: hello@devpulse.io</p>
+        <p>San Francisco, CA</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 DevPulse Blog. Built with pure HTML & CSS. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
